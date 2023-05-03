@@ -8,8 +8,8 @@ const NavBar = ()=> {
                 <div className=" p-4" id="nav">
       <h1 className="text-light text-center">ToTu Event</h1>
       <div className="d-flex justify-content-center mx-5">
-        <Link className="btn btn-outline-light text-black" to="/">Home</Link>
-        <Link className="btn btn-outline-light text-black" to="/addevents">Login</Link>
+        <Link className="btn btn-outline-light text-black" to="/">Login</Link>
+        <Link className="btn btn-outline-light text-black" to="/addevents">Home</Link>
       </div>
     </div>
                 
