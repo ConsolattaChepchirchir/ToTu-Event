@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
-
+import NavBar from "./components/NavBar";
+import EventsDisplay from "./components/EventsDisplay";
+import React,{useState,useEffect} from "react";
+import { Routes,Route } from "react-router-dom";
+import EventBookForm from "./components/Booking";
+import AddEvents from "./components/AddEvent";
 function App() {
+  const[events,setEvents]=useState([]);
+
+useEffect(()=>{
+      fetch("http://localhost:8000/events?_sort=Date")
+     .then((response)=>response.json())
+     .then((data)=>setEvents(data))
+},[])
+const handleRerender=(event)=>{
+  setEvents([...events,event])
+}
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container-fluid" >
+     <NavBar/>
+     <Routes>
+     
+     <Route path='/events' element={<EventsDisplay events={events}/>}/>
+     <Route path='/events/:eventid' element={<EventBookForm events={events}/>}/>
+     <Route path='/addevents' element={<AddEvents addevent={handleRerender}/>}/>
+     </Routes>
+     
     </div>
   );
 }
 
 export default App;
+
