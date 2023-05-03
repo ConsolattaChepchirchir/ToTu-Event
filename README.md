@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# ToTu Event
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Description
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It is an online event booking application for ToTu cooking competition where a user gets to log in the site and book a seat for the event.
+
+
 
 ## Available Scripts
 
