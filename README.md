@@ -16,8 +16,16 @@ Open another window in your terminal to get the backend started by running `json
 
 If everything has worked correctly, you should see a page with the exact time it was loaded, along with a small amount of text and a GIF.
 
+# Login
+Upon cloning and starting the server, the user will login in order to access the several events on ToTu App.
+![login page](public/login.png)
+
 # List of Events
-![Face of the App](public/appface.png)
+A user is able to view several events listed, upcoming and past events and is able to book a seat for a particular event they have chosen to attend.
+![events](public/events.png)
+
+# Add Event
+A user is also able to add their own event to the application for other people to see and book for the same.
 
 
 
