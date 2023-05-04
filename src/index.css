@@ -4,9 +4,11 @@
 
 body{
     background-color:rgb(86, 87, 90);
-    background-image: linear-gradient(79deg,purple,pink 30%,rgb(0, 225, 255));
+    background-image: linear-gradient(79deg,purple,pink 40%,rgb(0, 225, 255));
 
 }
 #nav{
     background-color:rgb(66, 150, 184);
+    background-image: linear-gradient(79deg,rgb(53, 54, 54),rgb(145, 141, 141) 40%,rgb(53, 54, 54));
+
 }

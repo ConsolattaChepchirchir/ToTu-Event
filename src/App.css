@@ -30,11 +30,11 @@ input{
 }
 button{
   border: none;
-  background-color: whitesmoke;
+  background-color: rgb(134, 137, 139);
   padding: 20px;
   border-radius:10px;
   cursor: pointer;
-  color:rgb(104, 44, 86)
+  color:rgb(8, 8, 8)
 }
 .link-btn{
   background:none;
