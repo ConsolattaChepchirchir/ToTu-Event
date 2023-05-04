@@ -7,7 +7,7 @@ function EventsDisplay({events}) {
   return (
     <>
     
-    <div className='row col-12 border border-danger border-start-1 m-2 bg-secondary mb-5'>
+    <div className='row col-12 border border-primary border-start-1 m-2 bg-dark mb-5'>
         
         {
             events.map((event)=>{

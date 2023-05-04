@@ -41,3 +41,6 @@ button{
   color:red;
   text-decoration: underline;
 }
+.card-body{
+background-color:white;
+}

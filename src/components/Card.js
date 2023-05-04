@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Card({event,id} ) {
 
   return (
-    <div className="card col-2 p-0 m-2 rounded-5 border border-danger mb-7" >
+    <div className="card col-2 p-0 m-2 rounded-5 border border-primary mb-7" >
     <div className="card-body">
       <h5 className="card-title">{event.EventName}</h5>
       <p className="card-text">Date : {event.Date}</p>
@@ -14,7 +14,7 @@ function Card({event,id} ) {
       
       
       <Link  to ={`/events/ ${id}`}
-      class="btn btn-success rounded-10 border border-danger d-grid gap-2 col-6 mx-auto p-1">BOOK</Link>
+      class="btn btn-secondary rounded-10 border border-primary d-grid gap-2 col-6 mx-auto p-1">BOOK</Link>
     </div>
   </div>
   )

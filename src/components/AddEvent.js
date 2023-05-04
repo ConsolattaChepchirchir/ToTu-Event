@@ -59,8 +59,8 @@ setTimeout(() => navigate('/events'), 1000);
  return (
    <div >
      <h1 className='d-grid gap-2 col-8 mx-auto text-white text-center'>WELCOME TO ADD EVENTS PAGE</h1>
-     <form onSubmit={handleSubmit} className='container col-6 p-2 bg-secondary text-white text-bold rounded-4 
-    border border-danger'>
+     <form onSubmit={handleSubmit} className='container col-6 p-2 bg-dark text-white text-bold rounded-4 
+    border border-primary'>
        <div className>
         <div>
             <label  className="form-label fw-bolder" >EVENTNAME</label>
@@ -92,8 +92,8 @@ setTimeout(() => navigate('/events'), 1000);
          </div>
        </div>
        <div className="d-grid gap-2 col-6 mx-auto p-3">
-       <button className="btn btn-success text-bolder rounded-4 
-    border border-danger" type="submit" > Add event</button>
+       <button className="btn btn-secondary text-bolder rounded-4 
+    border border-primary" type="submit" > ADD EVENT</button>
        </div>
      </form>
 
