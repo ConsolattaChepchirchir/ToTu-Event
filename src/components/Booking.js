@@ -36,8 +36,8 @@ function Booking() {
   return (
     <> 
     <h3 className='d-grid gap-2 col-8 mx-auto text-white text-center'>BOOK YOUR PREFERED SITTING POSITION</h3>
-    <form className='container col-6 p-2 bg-secondary text-white text-bold rounded-4 
-    border border-danger'onSubmit={handleSubmit} >
+    <form className='container col-6 p-2 bg-dark text-white text-bold rounded-4 
+    border border-primary'onSubmit={handleSubmit} >
     <div >
     <label  className="form-label fw-bolder">NAME</label>
     <input type="text"  name="Name"onChange={handleOnChange}  
@@ -59,8 +59,8 @@ function Booking() {
      className="form-control"  placeholder='eventName' required/>
   </div>
    <div className="d-grid gap-2 col-6 mx-auto p-3">
-  <button type="submit" className="btn btn-success text-bolder rounded-4 
-    border border-danger" >Submit</button>
+  <button type="submit" className="btn btn-secondary text-bolder rounded-4 
+    border border-primary" >Submit</button>
   </div>
   </form>
   </>
