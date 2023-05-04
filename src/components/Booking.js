@@ -13,7 +13,7 @@ function Booking() {
     postData(formData)
    }
     const postData=(data)=>{
-    fetch("http://localhost:8000/bookings",{
+    fetch("http://localhost:8002/bookings",{
         method:"POST",
         headers: {
             "Content-Type": "application/json", 
@@ -32,6 +32,11 @@ function Booking() {
       newFormData[fieldName]=fieldValue;
       setFormData(newFormData);
     }
+
+    function  handleClick (e){
+      e.preventDefault()
+      alert('Thank you for booking with ToTu Events, your seat has been reserved')
+    };
     
   return (
     <> 
@@ -60,7 +65,7 @@ function Booking() {
   </div>
    <div className="d-grid gap-2 col-6 mx-auto p-3">
   <button type="submit" className="btn btn-secondary text-bolder rounded-4 
-    border border-primary" >Submit</button>
+    border border-primary" onClick={handleClick} >Submit</button>
   </div>
   </form>
   </>
