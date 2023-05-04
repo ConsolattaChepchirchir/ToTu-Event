@@ -3,8 +3,10 @@
 
 
 body{
-    background-color:rgb(65, 82, 139);
+    background-color:rgb(86, 87, 90);
+    background-image: linear-gradient(79deg,purple,pink 30%,rgb(0, 225, 255));
+
 }
 #nav{
-    background-color:rgb(62, 65, 73);
+    background-color:rgb(66, 150, 184);
 }
