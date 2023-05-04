@@ -26,6 +26,20 @@ A user is able to view several events listed, upcoming and past events and is ab
 
 # Add Event
 A user is also able to add their own event to the application for other people to see and book for the same.
+![Add event](public/addevent.png)
+
+# Authors
+
+Github: [SharonTokiti](https://github.com/mshekerotokiti)
+
+
+[ConsolattaChepchirchir](https://github.com/ConsolattaChepchirchir)
+
+# License
+
+This project is MIT Licensed
+
+
 
 
 
