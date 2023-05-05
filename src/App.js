@@ -11,7 +11,7 @@ function App() {
   const[events,setEvents]=useState([]);
 
 useEffect(()=>{
-      fetch("http://localhost:8000/events?_sort=Date")
+      fetch("https://to-tu-server.onrender.com/events")
      .then((response)=>response.json())
      .then((data)=>setEvents(data))
 },[])

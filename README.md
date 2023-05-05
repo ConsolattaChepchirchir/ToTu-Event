@@ -12,7 +12,7 @@ Run `npm install` to install the apps dependencies.
 
 Run `npm start` to set the app running in the browser or run by opening : [http://localhost:8001](http://localhost:8001).
 
-Open another window in your terminal to get the backend started by running `json-server --watch db.json -p 8000`. copy this server link [http://localhost:8000](http://localhost:8000) and open in your browser to view the contents of the server.
+Open another window in your terminal to get the backend started by running `https://to-tu-server.onrender.com/events`. copy this server link [https://to-tu-server.onrender.com/events](https://to-tu-server.onrender.com/events) and open in your browser to view the contents of the server.
 
 If everything has worked correctly, you should see a page with the exact time it was loaded, along with a small amount of text and a GIF.
 
