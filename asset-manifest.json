@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ToTu-Event/static/css/main.7d03107e.css",
-    "main.js": "/ToTu-Event/static/js/main.2a7b1abc.js",
+    "main.js": "/ToTu-Event/static/js/main.99753309.js",
     "index.html": "/ToTu-Event/index.html",
     "main.7d03107e.css.map": "/ToTu-Event/static/css/main.7d03107e.css.map",
-    "main.2a7b1abc.js.map": "/ToTu-Event/static/js/main.2a7b1abc.js.map"
+    "main.99753309.js.map": "/ToTu-Event/static/js/main.99753309.js.map"
   },
   "entrypoints": [
     "static/css/main.7d03107e.css",
-    "static/js/main.2a7b1abc.js"
+    "static/js/main.99753309.js"
   ]
 }
