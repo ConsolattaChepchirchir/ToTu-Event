@@ -1,7 +1,7 @@
-# ToTu Event
+# ToTu Events
 
 # Project Description
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It is an online event booking application for several events where a user gets to log in the site and book a seat for a particular event, The user is also able to add their own event details to the application.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It is an online event booking application for several events where a user gets to log in the site and book a seat for a particular event, The user is also able to add their own event details to the application.This project is still under development.
 
 # Project Setup
 
